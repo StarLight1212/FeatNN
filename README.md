@@ -1,2 +1,2 @@
 # FeatNN
-#Binding affinity prediction with evolutionary strategy
+Binding affinity prediction with evolutionary strategy
