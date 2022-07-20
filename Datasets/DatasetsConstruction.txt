@@ -1,3 +1,8 @@
 
-Dowloa the from the URL: [https://terabox.com/s/1dmLj6VuwHZmZ-E-6kDf6Rg] with the [Password]:75m3 .
-An then unip the file a
+Step1: Dowload the processed datasets from the URL: [https://terabox.com/s/1dmLj6VuwHZmZ-E-6kDf6Rg] with the [Password]:75m3 .
+
+Step2: And then unzip the downloaded package(file) under the current directory, namely the [Datasets] directory. 
+
+Step3: Check and make sure the path sequences are as follows: "FeatNN/Datasets/0305/", "FeatNN/Datasets/DT/", "FeatNN/Datasets/Traindata/".
+
+
