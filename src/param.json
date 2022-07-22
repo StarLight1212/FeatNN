@@ -1,0 +1,17 @@
+{
+  "comp": {
+           "dropout": 0.1, "alpha": 0.2,
+           "lamda": 0.5, "hidden_dim": 128,
+           "atom_fdim": 82, "bond_fdim": 6, "max_nb": 6,
+           "hidden_size": 128, "GCN_depth": 2, "k_head": 4
+  },
+   "prot": {
+       "kernel_size": 11, "hidden_size": 128, "embed_size":32,
+       "num_attention_head":4, "Encoder_layers_num":2,
+       "Amino_vocab":22, "Dist_vocab":40,
+       "torsion_size":4, "pre_embed_size": 20
+   },
+   "affinity_pred": {
+       "hidden_size": 128, "kernel_size": 11
+    }
+ }
