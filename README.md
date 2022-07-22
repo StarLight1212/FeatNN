@@ -1,6 +1,8 @@
 # FeatNN
 Binding affinity prediction with evolutionary strategy
 
+Notion: The scripts were encrypted with the encoded algorthm. If you want know the detail of the project, please contact us with email: ansehen@163.com.
+
 # Required python packages
 python 3.5-3.7
 
