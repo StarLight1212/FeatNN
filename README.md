@@ -28,7 +28,7 @@ The improvement directions of FeatNN mainly include the following 4 points:
 ## Usage 
 ### Datasets
 Download Train/Val/Test datasets constructed from PDBBind and BindingDB  
-  > [Link](https://www.terabox.com/sharing/link?surl=_7iLdiJ7TvmtAGxJ2rKSmQ)
+  > [Datasets' Link](https://www.terabox.com/sharing/link?surl=_7iLdiJ7TvmtAGxJ2rKSmQ)
 
 ### Introduction & Inference
 
