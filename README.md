@@ -43,6 +43,10 @@ The other command example are given as follows:
 
 'python train_FeatNN.py --measures=KIKD --setting=new_protein --threshold=0.6 --param=param.json'
 
+### Test (Demo) the Results of FeatNN
+In the directory of [test], run the command of:
+'python test_FeatNN.py --model=./model/FeatNN_n1.pth'
+
 ## License  
 This repo is made freely available to academic and non-academic entities for non-commercial purposes such as academic research, teaching, and scientific publications. Permission is granted to use FeatNN given that you agree to my licensing terms. Regarding the request for commercial use, please contact us via email to help you obtain the authorization letter.  
 
