@@ -53,3 +53,7 @@ This repo is made freely available to academic and non-academic entities for non
 
 ## Author  
 Binjie Guo, Hanyu Zheng, Xuhua Wang
+
+
+## Acknowledgement
+Finally, here, we sincerely appreciate for the code from Melissa F. Adasme et al(https://github.com/ssalentin/plip/) from the Dresden University in Deutschland and the code from Shuya Li et al(https://github.com/lishuya17/MONN).
