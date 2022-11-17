@@ -5,12 +5,18 @@ Note: The scripts were encrypted with the encoded algorthm. If you want know the
 ___  
 
 ## Required python packages
-- python 3.6-3.7
+- python 3.6-3.8
 - pytorch torch-deploy-1.8 (GPU 3090, CUDA 11.2)
-- rdkit
-- sklearn
-- numpy
-- pandas
+- torch = 1.10.1+cu113
+- torchvision = 0.11.2+cu113
+- rdkit (2021.09.4)
+- bio = 1.3.3
+- biopython = 1.79
+- sklearn = 1.0.2
+- numpy = 1.21.5
+- pandas = 0.24.2
+- scipy = 1.7.1
+- openbabel = 3.1.1
 - argparse
 
 
@@ -52,7 +58,7 @@ In the directory of [test], run the command of:
 This repo is made freely available to academic and non-academic entities for non-commercial purposes such as academic research, teaching, and scientific publications. Permission is granted to use FeatNN given that you agree to my licensing terms. Regarding the request for commercial use, please contact us via email to help you obtain the authorization letter.  
 
 ## Author  
-Binjie Guo, Hanyu Zheng, Xuhua Wang
+Binjie Guo, Hanyu Zheng, Haohan Jiang, Xuhua Wang
 
 
 ## Acknowledgement
