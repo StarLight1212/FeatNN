@@ -18,7 +18,7 @@ protein sequence and affinity information in "Traindata") generated from general
 and IC50 constructed based on the strategy of "Compound-Clustered" and "Protein-Clustered") from the URL link of 
 <https://drive.google.com/drive/folders/1LbhSXNShSYrK60sTEvnyoL7I2cSRx7iU?usp=share_link>
 
-2) And then, please unzip the files of "IC50" and "KIKD" under the folder of "FeatNN/Datasets/DataProcessed/" in this project before training. 
+2) Create a new folder named "DataProcessed" under the current folder "Datasets". And then, please unzip the files of "IC50" and "KIKD" under the folder of "FeatNN/Datasets/DataProcessed/" in this project before training. 
 (***Please make sure the paths of "FeatNN/Datasets/DataProcessed/IC50/", and "FeatNN/Datasets/DataProcessed/KIKD/" exist in this project.***)
 
 
