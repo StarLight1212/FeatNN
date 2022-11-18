@@ -39,13 +39,13 @@ The output file will be "out1.5_uniprotid_list.txt", and put the file under fold
 
 > **Step2: Extract the information containing the protein sequence information, PDB ID, Uniprot ID and smiles sequence and affinity values from the index file of PDBbind-v2020.** <br>
 > Run **"S4_generate_data_file_output.py"** and the code will output "out2_pdbbind_data_datafile.tsv". The columns in the datafile are:<br>
-	- [x] PDB ID of the complex<br>
-	- [x] Uniprot ID of the protein<br>
-	- [x] PDB ID of the ligand<br>
-	- [x] Inchi of the ligand<br>
-	- [x] Sequence of the protein<br>
-	- [x] Measurement (Ki, Kd, IC50)<br>
-	- [x] Affinity values (-log10 Ki/Kd/IC50)<br>
+	- PDB ID of the complex<br>
+	- Uniprot ID of the protein<br>
+	- PDB ID of the ligand<br>
+	- Inchi of the ligand<br>
+	- Sequence of the protein<br>
+	- Measurement (Ki, Kd, IC50)<br>
+	- Affinity values (-log10 Ki/Kd/IC50)<br>
 
 -----------------------
 
