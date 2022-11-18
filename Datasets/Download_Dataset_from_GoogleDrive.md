@@ -16,9 +16,9 @@ protein sequence and affinity information in "Traindata") generated from general
 
 1) Download the file "DataProcessed" which includes the train, valid, and test dataset with the measurement of KIKD 
 and IC50 constructed based on the strategy of "Compound-Clustered" and "Protein-Clustered") from the URL link of 
-<xxxxxx>
+<https://drive.google.com/drive/folders/1LbhSXNShSYrK60sTEvnyoL7I2cSRx7iU?usp=share_link>
 
-2) And then, please unzip the file under the folder of "Datasets" in this project before training. 
+2) And then, please unzip the files of "IC50" and "KIKD" under the folder of "FeatNN/Datasets/DataProcessed/" in this project before training. 
 (***Please make sure the paths of "FeatNN/Datasets/DataProcessed/IC50/", and "FeatNN/Datasets/DataProcessed/KIKD/" exist in this project.***)
 
 
