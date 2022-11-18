@@ -2,7 +2,7 @@
 
 
 **This FeatNN project uses the dataset construction protocols below based on the PDBbind-v2020 database.
-<u>Apart from the data in computer vision (CV) and natural language process (NLP), datasets generated from biology experiments have unneglectable biology information behind them.</u> Therefore to avoid the notorious data leakage caused by such reasons, we should preprocess the data instead of directly splitting the data into the train, valid, and test datasets according to a certain ratio.
+<u>*Apart from the data in computer vision (CV) and natural language process (NLP), datasets generated from biology experiments have unneglectable biology information behind them.*</u> Therefore to avoid the notorious data leakage caused by such reasons, we should preprocess the data instead of directly splitting the data into the train, valid, and test datasets according to a certain ratio.
 Here, we also want to provide a standard method for how constructing and processing the dataset in the domain of compound-protein affinity prediction.**
 
 
