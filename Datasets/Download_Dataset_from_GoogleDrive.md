@@ -9,7 +9,7 @@ protein sequence and affinity information in "Traindata") generated from general
 <https://drive.google.com/drive/folders/1GnnwBOFlewZBfSodpfz3hb04D9oTKsT5?usp=sharing>
 
 2) And then, please unzip the file under the folder of "Datasets" in this project before training. 
-(*Please make sure the paths of "FeatNN/Datasets/PDBbind_Struct/", and "FeatNN/Datasets/Traindata/" are exist in this project.*)
+(***Please make sure the paths of "FeatNN/Datasets/PDBbind_Struct/", and "FeatNN/Datasets/Traindata/" are exist in this project.***)
 
 
 #### Download the datasets of processed train. valid and test datasets
@@ -19,7 +19,7 @@ and IC50 constructed based on the strategy of "Compound-Clustered" and "Protein-
 <xxxxxx>
 
 2) And then, please unzip the file under the folder of "Datasets" in this project before training. 
-(*Please make sure the paths of "FeatNN/Datasets/DataProcessed/IC50/", and "FeatNN/Datasets/DataProcessed/KIKD/" exist in this project.*)
+(***Please make sure the paths of "FeatNN/Datasets/DataProcessed/IC50/", and "FeatNN/Datasets/DataProcessed/KIKD/" exist in this project.***)
 
 
 The script of "train_FeatNN.py" will successfully execute with after the deployment of these steps.
