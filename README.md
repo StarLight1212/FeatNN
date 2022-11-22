@@ -22,12 +22,15 @@ ___
 
 **News:**    
 ```yaml
-The improvement directions of FeatNN mainly include the following 4 points:  
+The improvement directions of FeatNN mainly include the following 5 points:  
 ```  
 - [x] 1. On a dataset constructed from PDBbind, our model greatly outperforms the SOTA models in CPA prediction tasks. FeatNN considerably outperforms the SOTA baselines in CPA prediction, with R2, root mean square error (RMSE) and Pearson coefficient values that are highly elevated  
 - [x] 2. An Evo-Updating block is employed in the protein encoding module to interactively update the sequence and structure information of proteins so that the high-quality features of proteins are extracted and presented, enabling FeatNN to outperform various SOTA models.  
-- [x] 3. In FeatNN, the distance matrices of protein residues were discretized into one dimension, and a word embedding strategy was applied to encode protein structure information and significantly reduce the computational cost of the proposed method; however, it still effectively represented the structure information of proteins..  
-- [x] 4. A specific residual connection was applied to represent a molecular graph, in which the features of the initial nodes were added onto each layer of a graph convolutional network (GCN), thereby solving the notorious oversmoothing problem in traditional deep GCNs.  
+- [x] 3. In FeatNN, the distance matrices of protein residues were discretized into one dimension, and a word embedding strategy was applied to encode protein structure information and significantly reduce the computational cost of the proposed method; however, it still effectively represented the structure information of proteins. 
+- [x] 4. With respect to the extraction of compound features, a specific residual connection is applied to represent the molecular graph, in which the features of the initial nodes are added onto each layer of the GCN, such that the graph features representation limitation caused by the notorious oversmoothing problem in traditional deep GCNs is solved.
+- [x] 5. With the pretraining and fine-tuning strategy, both the generalization and R2 performance of the optimized model, FeatNNoptm, further increases compared to that of FeatNN.
+- [x] 6. FeatNN has excellent generalization in the affinity prediction task, which is vital and pivotal in the drug screening domain. Targeting severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) 3-chymotrypsin (3C)-like protease and Akt-1, the generalization of FeatNN vastly outperforms the SOTA baseline in the affinity value prediction task.
+- [x] 7. The prediction results of FeatNN with different conformations of the same protein are robust when 3D structure information is directly introduced in the model while neglecting the molecular dynamics of the protein.
 
 ------
 
