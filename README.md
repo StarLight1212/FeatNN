@@ -32,9 +32,14 @@ The improvement directions of FeatNN mainly include the following 4 points:
 ------
 
 ## Usage 
+### Datasets Generation Protocol
+Here, we want to provide a standard method for how constructing and processing the dataset in the domain of compound-protein affinity prediction to help the other researchers well processing the data before training.
+  > [Standard Datasets Construction Protocols Link](https://github.com/StarLight1212/FeatNN/blob/main/DataGenerates/Dataset_Construction_Protocols.md)
+
+
 ### Datasets
-Download Train/Val/Test datasets constructed from PDBBind and BindingDB  
-  > [Datasets' Link](https://www.terabox.com/sharing/link?surl=_7iLdiJ7TvmtAGxJ2rKSmQ)
+Download Train/Val/Test datasets constructed from PDBBind-v2020 follow the protocols:  
+  > [Datasets Download Protocol Link](https://github.com/StarLight1212/FeatNN/blob/main/Datasets/Download_Dataset_from_GoogleDrive.md)
 
 ### Introduction & Inference
 
@@ -54,7 +59,7 @@ The other command example are given as follows:
 ...
 ```  
 ### Test (Demo) the Results of FeatNN
-In the directory of [test(demo)], run the command of:
+In the directory of [test(demo)](https://github.com/StarLight1212/FeatNN/tree/main/test(demo)), run the command of:
 ```yaml
 'python test_model.py --model_dir=FeatNN_model_IC50_m1.pth --batch_size=16 --measures=IC50'
 
@@ -70,6 +75,7 @@ In the directory of [test(demo)], run the command of:
 ```  
 More test models could be found in the link: 
  > [Models' Link](https://drive.google.com/drive/folders/1ZLciROL7MPn0PY63Bd6HMCFE7fDPDg4c?usp=share_link)
+
 Download all files into the directory of './test(demo)/model/'.
 
 ## License  
