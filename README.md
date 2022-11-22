@@ -68,7 +68,9 @@ In the directory of [test(demo)], run the command of:
 
 'python test_model.py --model_dir=FeatNN_model_KIKD_k3.pth --batch_size=16 --measures=KIKD'
 ```  
-More test models could be found in the link of: <https://drive.google.com/drive/folders/1ZLciROL7MPn0PY63Bd6HMCFE7fDPDg4c?usp=share_link>. Download all files into the directory of './test(demo)/model/'.
+More test models could be found in the link: 
+ > [Models' Link](https://drive.google.com/drive/folders/1ZLciROL7MPn0PY63Bd6HMCFE7fDPDg4c?usp=share_link)
+Download all files into the directory of './test(demo)/model/'.
 
 ## License  
 This repo is made freely available to academic and non-academic entities for non-commercial purposes such as academic research, teaching, and scientific publications. Permission is granted to use FeatNN given that you agree to my licensing terms. Regarding the request for commercial use, please contact us via email to help you obtain the authorization letter.  
