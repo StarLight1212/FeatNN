@@ -133,9 +133,14 @@ The output file will be "out1.5_uniprotid_list.txt", and put the file under fold
 -----------------------
 
 > **S11: Generate the train, valid and test dataset with the command of:**<br>
->>     python S12_trn_valid_tst_construction.py --measures=IC50 --setting=ComClu --threshold=0.3 --n_fold=5" for the IC50 measurement, compound-clustered strategy with the threshold of 0.3, and with 5-fold cross validation
->>     python S12_trn_valid_tst_construction.py --measures=KIKD --setting=ComClu --threshold=0.4 --n_fold=5" for the KIKD measurement, compound-clustered strategy with the threshold of 0.4, and with 5-fold cross validation
->>     python S12_trn_valid_tst_construction.py --measures=KIKD --setting=ProtClu --threshold=0.4 --n_fold=5" for the KIKD measurement, protein-clustered strategy with the threshold of 0.4, and with 5-fold cross validation
+>>     "python S12_trn_valid_tst_construction.py --measures=IC50 --setting=ComClu --threshold=0.3 --n_fold=5" 
+>>     for the IC50 measurement, compound-clustered strategy with the threshold of 0.3, and with 5-fold cross validation
+>>     
+>>     "python S12_trn_valid_tst_construction.py --measures=KIKD --setting=ComClu --threshold=0.4 --n_fold=5" 
+>>     for the KIKD measurement, compound-clustered strategy with the threshold of 0.4, and with 5-fold cross validation
+>>     
+>>     "python S12_trn_valid_tst_construction.py --measures=KIKD --setting=ProtClu --threshold=0.4 --n_fold=5" 
+>>     for the KIKD measurement, protein-clustered strategy with the threshold of 0.4, and with 5-fold cross validation
 >>     ...
 >
 > **Output:** the final data will be saved in the folder "./Train_test_data/", and you can move the file into the folder '../Datasets/' for training the FeatNN.
