@@ -64,17 +64,17 @@ The other command example are given as follows:
 ### Test (Demo) the Results of FeatNN
 In the directory of [test(demo)](https://github.com/StarLight1212/FeatNN/tree/main/test(demo)), run the command of:
 ```yaml
+'python test_model.py --model_dir=FeatNN_model_IC50_m0.pth --batch_size=16 --measures=IC50'
+
 'python test_model.py --model_dir=FeatNN_model_IC50_m1.pth --batch_size=16 --measures=IC50'
 
 'python test_model.py --model_dir=FeatNN_model_IC50_m2.pth --batch_size=16 --measures=IC50'
 
-'python test_model.py --model_dir=FeatNN_model_IC50_m3.pth --batch_size=16 --measures=IC50'
+'python test_model.py --model_dir=FeatNN_model_KIKD_k0.pth --batch_size=16 --measures=KIKD'
 
 'python test_model.py --model_dir=FeatNN_model_KIKD_k1.pth --batch_size=16 --measures=KIKD'
 
 'python test_model.py --model_dir=FeatNN_model_KIKD_k2.pth --batch_size=16 --measures=KIKD'
-
-'python test_model.py --model_dir=FeatNN_model_KIKD_k3.pth --batch_size=16 --measures=KIKD'
 ```  
 More test models could be found in the link: 
  > [Models' Link](https://drive.google.com/drive/folders/1ZLciROL7MPn0PY63Bd6HMCFE7fDPDg4c?usp=share_link)
