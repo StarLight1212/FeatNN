@@ -62,6 +62,8 @@ The other command example are given as follows:
 ...
 ```  
 ### Test (Demo) the Results of FeatNN
+Before Test the Result of FeatNN, please download the structure and sequence features according to the [Datasets Download Protocol Link](https://github.com/StarLight1212/FeatNN/blob/main/Datasets/Download_Dataset_from_GoogleDrive.md).
+
 In the directory of [test(demo)](https://github.com/StarLight1212/FeatNN/tree/main/test(demo)), run the command of:
 ```yaml
 'python test_model.py --model_dir=FeatNN_model_IC50_m0.pth --batch_size=16 --measures=IC50'
