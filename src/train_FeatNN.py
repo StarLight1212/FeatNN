@@ -137,7 +137,7 @@ if __name__ == "__main__":
 
     assert setting in ['ComClu', 'ProtClu']
     assert clu_thre in [0.3, 0.4, 0.5, 0.6]
-    assert measure in ['All', 'IC50', 'KIKD']
+    assert measure in ['IC50', 'KIKD']
     repeat_train = 3
 
     # print evaluation scheme
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     print('Clustering threshold:', clu_thre)
     print('Number of epochs:', n_epoch)
 
-    # load data
+    # load training, valid and test data
     thre_str = str(clu_thre)[0]+'_'+str(clu_thre)[2]
     train_data = pickle.load(file=open('../Datasets/DataProcessed/'+measure+'/'+measure+'_'+setting+'_'+thre_str+'_train', 'rb'))
     valid_data = pickle.load(
@@ -153,10 +153,13 @@ if __name__ == "__main__":
     test_data = pickle.load(
         file=open('../Datasets/DataProcessed/' + measure + '/' + measure + '_' + setting + '_' + thre_str + '_test', 'rb'))
     print('train num:', len(train_data[0]), 'valid num:', len(valid_data[0]), 'test num:', len(test_data[0]))
+    # load compound features
     init_A, init_B = loading_comp_repr(measure)
+    # Construct the object of Model FeatNN
     net = FEATNN(init_A, init_B, params)
-
+    # Training and Validation Evaluation Process
     valid_performance, valid_label, valid_output, feat = train_and_eval(net, train_data, valid_data, batch_size, n_epoch)
+    # After Training and validation of FeatNN, finnally, the real performances of FeatNN are verified on the test dataset here.
     test_performance, test_label, test_output = test_performances_of_FeatNN(feat, test_data, batch_size)
     print("Final Test Performance: ", test_performance)
     print('FeatNN train&test processes have been finished!')
