@@ -3,8 +3,13 @@ Highly improved precision of binding affinity prediction with evolutionary strat
 
 ![alt text](https://github.com/StarLight1212/FeatNN/blob/main/meta/Fig1.jpg "FeatNN Architecture")
 
+FeatNN achieves the SOTA performances in general datasets.
+![alt text](https://github.com/StarLight1212/FeatNN/blob/main/meta/Fig2.jpg "SOTA Results")
+
 
 FeatNN could effectively used in drug discovery and drug screening.
+
+![alt text](https://github.com/StarLight1212/FeatNN/blob/main/meta/Fig6.jpg "Drug Screening Results")
 
 Note: The scripts were encrypted with the encoded algorthm. If you want know the detail of the project, please contact us with email: ansehen@163.com. If you have special needs or are interested in the data set construction process, please contact us, and we will upload and open source the code of the data set construction part in succession. The code of the model part is prohibited from commercial use. If you need the source code for the purpose of learning and education, please contact us. After verification, or you will be sent the model source code by email.
 ___  
