@@ -1,7 +1,7 @@
 # FeatNN
 Highly improved precision of binding affinity prediction with evolutionary strategy and deep GCN block(addressing the over-smoothing problem).
 
-[alt text](https://github.com/StarLight1212/FeatNN/blob/main/meta/Fig1.jpg "FeatNN Architecture")
+![alt text](https://github.com/StarLight1212/FeatNN/blob/main/meta/Fig1.jpg "FeatNN Architecture")
 
 
 FeatNN could effectively used in drug discovery and drug screening.
